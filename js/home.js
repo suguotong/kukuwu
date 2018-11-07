@@ -171,29 +171,29 @@ function page1(){
 	});
 }
 function page3(){
-	if(window.addEventListener){ 
-		mySwiper = new Swiper('.page3 .swiper-container', {
-			loop : true,
-			speed:1300,
-			parallax : true,
-			prevButton:'.case-btn-l',
-			nextButton:'.case-btn-r'
-		});
-	}else{ 
-		mySwiper = new Swiper('.page3 .swiper-container',{
-		    loop:true,
-		    grabCursor: true,
-		    paginationClickable: true
-		});
-		$('.case-btn-l').on('click', function(e){
-		   e.preventDefault()
-	 	   mySwiper.swipePrev()
-		})
-		$('.case-btn-r').on('click', function(e){
-		    e.preventDefault()
-		    mySwiper.swipeNext()
-		})
-	}
+	// if(window.addEventListener){
+	// 	mySwiper = new Swiper('.page3 .swiper-container', {
+	// 		loop : true,
+	// 		speed:1300,
+	// 		parallax : true,
+	// 		prevButton:'.case-btn-l',
+	// 		nextButton:'.case-btn-r'
+	// 	});
+	// }else{
+	// 	mySwiper = new Swiper('.page3 .swiper-container',{
+	// 	    loop:true,
+	// 	    grabCursor: true,
+	// 	    paginationClickable: true
+	// 	});
+	// 	$('.case-btn-l').on('click', function(e){
+	// 	   e.preventDefault()
+	//  	   mySwiper.swipePrev()
+	// 	})
+	// 	$('.case-btn-r').on('click', function(e){
+	// 	    e.preventDefault()
+	// 	    mySwiper.swipeNext()
+	// 	})
+	// }
 }
 function page4Flash(){
 	doc = $('.customer-number-main span');
