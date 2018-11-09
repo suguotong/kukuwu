@@ -514,7 +514,7 @@
   position: relative;
   left: 0;
   top: 0;
-  background: url("../images/banner.jpg")/*tpa=http://www.eshidu.com/images/banner.jpg*/ no-repeat left bottom;
+  background: url("../images/banner-1.jpg")/*tpa=http://www.eshidu.com/images/banner.jpg*/ no-repeat left bottom;
   background-size: cover;
 }
 .banner0-main .banner0-el {
@@ -955,7 +955,7 @@
   position: relative;
   left: 0;
   top: 0;
-  background: url("../images/banner1.jpg")/*tpa=http://www.eshidu.com/images/banner1.jpg*/ no-repeat center center;
+  background: url("../images/banner1-2.jpg")/*tpa=http://www.eshidu.com/images/banner1.jpg*/ no-repeat center center;
   background-size: cover;
 }
 .page1 .banner1-main .banner1-el {
