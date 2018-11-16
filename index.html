@@ -20,7 +20,21 @@
             <!--hm.src = "../hm.baidu.com/hm.js-9d3aef62a6c5452b8426aafd7641a5d8"/*tpa=https://hm.baidu.com/hm.js?9d3aef62a6c5452b8426aafd7641a5d8*/;-->
             <!--var s = document.getElementsByTagName("script")[0];-->
             <!--s.parentNode.insertBefore(hm, s);-->
-        <!--})();-->
+        <!--})();SELECT l.session_id sid,
+       s.serial#,
+       l.locked_mode,
+       l.oracle_username,
+       l.os_user_name,
+       s.machine,
+       s.terminal,
+       o.object_name,
+       s.logon_time
+FROM v$locked_object l,
+     all_objects o,
+     v$session s
+WHERE l.object_id = o.object_id
+  AND l.session_id = s.sid
+ORDER BY sid, s.serial#;
     <!--</script>-->
     <script src="js/swiper-3.4.2.min.js"></script>
 </head>
@@ -149,7 +163,7 @@
                         </div>
                     </div>
                     <div class="banner-li">
-                        <div class="banner2-main">
+                        <div class="bannerccccccc
                             <div class="banner2-el" style="background-image: url(images/banner2-el.png);">
                             </div>
                             <div class="text-main">
