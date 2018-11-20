@@ -60,7 +60,7 @@ window.scrollReveal = (function (window) {
       after:   '0s',
       enter:   'bottom',
       move:    '24px',
-      over:    'http://www.eshidu.com/js/0.66s',
+      over:    'http://www.kukuwu.com/js/0.66s',
       easing:  'ease-in-out',
       opacity: 0,
       complete: function() {},

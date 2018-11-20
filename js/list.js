@@ -5,7 +5,7 @@ $(function(){
     	$('.loading').fadeOut(300);
     	$('.service-banner').addClass('act');
     	$('.sidebar').animate({'right':'0'},600);
-    	$('http://www.eshidu.com/js/.case-banner .text').addClass('act');
+    	$('http://www.kukuwu.com/js/.case-banner .text').addClass('act');
     },1200);
 	$(".mobile-header-icon").click(function () {
         $(this).toggleClass("mobile-header-icon-click mobile-header-icon-out");

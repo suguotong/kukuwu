@@ -126,7 +126,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../images/loading-bg.jpg")/*tpa=http://www.eshidu.com/images/loading-bg.jpg*/ no-repeat center center;
+  background: url("../images/loading-bg.jpg")/*tpa=http://www.kukuwu.com/images/loading-bg.jpg*/ no-repeat center center;
   background-size: cover;
   z-index: 9999; }
   .loading .loader {
@@ -508,7 +508,7 @@
   .service-page1 .service-banner {
     height: 100%;
     position: relative;
-    background: url("../images/service-banner.jpg")/*tpa=http://www.eshidu.com/images/service-banner.jpg*/ no-repeat center center;
+    background: url("../images/service-banner.jpg")/*tpa=http://www.kukuwu.com/images/service-banner.jpg*/ no-repeat center center;
     background-size: cover;
     overflow: hidden; }
     .service-page1 .service-banner .service-banner-text {
@@ -701,7 +701,7 @@
           color: #2A2A2A; }
 
 .service-page5 {
-  background: url("../img/service-page5-bg.jpg")/*tpa=http://www.eshidu.com/img/service-page5-bg.jpg*/ no-repeat center center;
+  background: url("../img/service-page5-bg.jpg")/*tpa=http://www.kukuwu.com/img/service-page5-bg.jpg*/ no-repeat center center;
   height: 760px;
   overflow: hidden; }
   .service-page5 .wrap .service-page5-main {
@@ -713,7 +713,7 @@
     .service-page5 .wrap .service-page5-main .service-page5-img {
       width: 100%;
       height: 100%;
-      background: url("../img/service-page5-main.png")/*tpa=http://www.eshidu.com/img/service-page5-main.png*/ no-repeat center center;
+      background: url("../img/service-page5-main.png")/*tpa=http://www.kukuwu.com/img/service-page5-main.png*/ no-repeat center center;
       opacity: 0;
       -moz-transition: all 3s;
       -o-transition: all 3s;
@@ -874,7 +874,7 @@
 .case-banner {
   height: 470px;
   position: relative;
-  background: url("../images/caselist.png")/*tpa=http://www.eshidu.com/images/caselist.png*/ no-repeat center center;
+  background: url("../images/caselist.png")/*tpa=http://www.kukuwu.com/images/caselist.png*/ no-repeat center center;
   background-size: cover;
   overflow: hidden; }
   .case-banner #caseCanvas {
@@ -967,7 +967,7 @@
                 -webkit-transition: all 0.5s;
                 transition: all 0.5s;
                 position: absolute;
-                background: url("../img/cases-bg.png")/*tpa=http://www.eshidu.com/img/cases-bg.png*/ no-repeat center center;
+                background: url("../img/cases-bg.png")/*tpa=http://www.kukuwu.com/img/cases-bg.png*/ no-repeat center center;
                 top: -100%;
                 left: 0;
                 width: 100%;
@@ -1033,7 +1033,7 @@
 
 .contact-banner {
   height: 890px;
-  background: url("../img/contact-banner.jpg")/*tpa=http://www.eshidu.com/img/contact-banner.jpg*/ no-repeat center center;
+  background: url("../img/contact-banner.jpg")/*tpa=http://www.kukuwu.com/img/contact-banner.jpg*/ no-repeat center center;
   background-size: cover; }
   .contact-banner .contact-main {
     overflow: hidden;
@@ -1077,7 +1077,7 @@
 .about-banner {
   height: 890px;
   overflow: hidden;
-  background: url("../img/about-banner.jpg")/*tpa=http://www.eshidu.com/img/about-banner.jpg*/ no-repeat center center;
+  background: url("../img/about-banner.jpg")/*tpa=http://www.kukuwu.com/img/about-banner.jpg*/ no-repeat center center;
   background-size: cover; }
   .about-banner .about-banner-main {
     width: 1200px;
@@ -1114,7 +1114,7 @@
           width: 100%;
           height: 100%;
           z-index: 2;
-          background: url("../img/about-bannner-img.jpg")/*tpa=http://www.eshidu.com/img/about-bannner-img.jpg*/ no-repeat center center;
+          background: url("../img/about-bannner-img.jpg")/*tpa=http://www.kukuwu.com/img/about-bannner-img.jpg*/ no-repeat center center;
           background-size: cover; }
       .about-banner .about-banner-main .about-banner-img .el::after {
         content: "";
@@ -1144,7 +1144,7 @@
     float: left;
     text-align: center;
     padding: 60px 0 35px;
-    background: url("../img/about-number-bg.png")/*tpa=http://www.eshidu.com/img/about-number-bg.png*/ no-repeat bottom left; }
+    background: url("../img/about-number-bg.png")/*tpa=http://www.kukuwu.com/img/about-number-bg.png*/ no-repeat bottom left; }
     .about-number ul li h1 {
       font-size: 80px;
       display: inline-block;
@@ -1240,7 +1240,7 @@
     -ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
-    background: url("../img/lines.png")/*tpa=http://www.eshidu.com/img/lines.png*/ no-repeat left top;
+    background: url("../img/lines.png")/*tpa=http://www.kukuwu.com/img/lines.png*/ no-repeat left top;
     animation: lin1 2s ease-out infinite;
     -webkit-animation: lin1 2s ease-out infinite; }
   .about-introduce .about06 {
@@ -1540,7 +1540,7 @@
     left: 90px;
     width: 135px;
     height: 5px;
-    background: url("../img/lines.png")/*tpa=http://www.eshidu.com/img/lines.png*/ no-repeat left top;
+    background: url("../img/lines.png")/*tpa=http://www.kukuwu.com/img/lines.png*/ no-repeat left top;
     animation: lin 2s ease-out infinite;
     -webkit-animation: lin 2s ease-out infinite; }
 
@@ -1692,11 +1692,11 @@
         padding: 0;
         margin: 0 5px; }
       .case-list .case-list-title .case-share .bshare-custom.icon-medium .bshare-sinaminiblog {
-        background: url("../img/share-icon1.jpg")/*tpa=http://www.eshidu.com/img/share-icon1.jpg*/ no-repeat center center; }
+        background: url("../img/share-icon1.jpg")/*tpa=http://www.kukuwu.com/img/share-icon1.jpg*/ no-repeat center center; }
       .case-list .case-list-title .case-share .bshare-custom.icon-medium .bshare-qqim {
-        background: url("../img/share-icon2.jpg")/*tpa=http://www.eshidu.com/img/share-icon2.jpg*/ no-repeat center center; }
+        background: url("../img/share-icon2.jpg")/*tpa=http://www.kukuwu.com/img/share-icon2.jpg*/ no-repeat center center; }
       .case-list .case-list-title .case-share .bshare-custom.icon-medium .bshare-weixin {
-        background: url("../img/share-icon3.jpg")/*tpa=http://www.eshidu.com/img/share-icon3.jpg*/ no-repeat center center; }
+        background: url("../img/share-icon3.jpg")/*tpa=http://www.kukuwu.com/img/share-icon3.jpg*/ no-repeat center center; }
   .case-list .case-list-content {
     overflow: hidden; }
     .case-list .case-list-content img {
