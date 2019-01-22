@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>留言板</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" type="text/css" href="msgBoard/main.css">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?6cd65aeaceca72b60ffd24a0bacf46bf";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+<div class="header">
+    <h1>请您留言</h1>
+</div>
+<div class="section">
+    <div class="company_info">
+        <div class="company_name">酷酷屋</div>
+        <div class="company_phone_no">全国服务热线：137-1686-6367</div>
+    </div>
+    <hr class="split"/>
+    <form id="mess-form" method="post" action="http://localhost:8385/gunsApi/msgBoard">
+        <div id="content-wrapper" class="item-container textarea-container">
+                <textarea name="message" id="message" placeholder="请在此输入留言内容，我们会尽快与您联系。(必填)" spellcheck="false" maxlength="400"></textarea>
+        </div>
+        <div id="visitorName-wrapper" class="item-container">
+            <label id="name" for="name"></label>
+            <div class="ctrl_wrap">
+                <div class="ipt_wrap">
+                    <input type="text" name="name" maxlength="100" placeholder="姓名" spellcheck="false"/>
+                </div>
+            </div>
+        </div>
+        <div id="visitorPhone-wrapper" class="item-container">
+            <label id="phone" for="phone"></label>
+            <div class="ctrl_wrap">
+                <div class="ipt_wrap">
+                    <input type="text"  name="phone" maxlength="100" placeholder="电话(必填)" spellcheck="false"/>
+                </div>
+            </div>
+        </div>
+        <div class="custom-items-container">
+            <div id="item0-wrapper" class="item-container">
+                <label class="custom-input-item" for="qqWx"></label>
+                <div class="ctrl_wrap">
+                    <div class="ipt_wrap">
+                        <input type="text" id="qqWx" name="qqWx" maxlength="20" placeholder="QQ/微信号码" spellcheck="false"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="text" name="origin" id="origin"/>
+        <input type="hidden" name="appId" value=""/>
+        <button type="submit" class="mess_send">发送</button>
+    </form>
+    <div class="brand"></div>
+</div>
